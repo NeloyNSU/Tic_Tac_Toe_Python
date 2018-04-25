@@ -347,44 +347,34 @@ def checkdef(board2, aiturn):
 
     return board2, aiturn
 
-
 # functions to change the buttons the ai chose
 
 def ch1():
     button1["text"] = "O"
 
-
 def ch2():
     button2["text"] = "O"
-
 
 def ch3():
     button3["text"] = "O"
 
-
 def ch4():
     button4["text"] = "O"
-
 
 def ch5():
     button5["text"] = "O"
 
-
 def ch6():
     button6["text"] = "O"
-
 
 def ch7():
     button7["text"] = "O"
 
-
 def ch8():
     button8["text"] = "O"
 
-
 def ch9():
     button9["text"] = "O"
-
 
 # dictionary
 
@@ -398,7 +388,6 @@ options = {"0": ch1,
            "7": ch8,
            "8": ch9,
            }
-
 """ *** Layout *** """
 
 button1 = ttk.Button(root, text=" ", command=lambda: turn("0", board2, button1, a))
