@@ -5,7 +5,6 @@ import tkinter.messagebox
 
 root = tk.Tk()
 
-
 board2 = [["0", "1", "2"], ["3", "4", "5"], ["6", "7", "8"]]
 a = ["X"]
 
@@ -135,8 +134,6 @@ def win():
         reset(0)
         aiturn = True
         return aiturn
-
-
 
 def reset(n):
     """ win state, reset board """
